@@ -46,3 +46,19 @@
     font-weight: 500;
     margin-left: 25px;
 }
+
+
+/*Home section styling*/
+
+.home{
+    background-image: url(./images/banner.jpg);
+    display: flex;
+    height: 100vh;
+    min-height: 500px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
