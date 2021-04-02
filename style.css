@@ -71,6 +71,13 @@
 
 }
 
+.menu-btn{
+    color: #ffff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
 /*Home section styling*/
 
 .home{
@@ -107,4 +114,37 @@
 .home .home-content .text-3 span{
     color: crimson;
     font-weight: 500;
+}
+
+@media (max-width: 840px){
+    .max-width{
+        padding: 0 50px;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .navbar .menu{
+        position: fixed;
+        background: #111;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        padding-top: 80px;
+        transition: all .3s ease;
+    }
+
+    .navbar .menu .active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
 }
