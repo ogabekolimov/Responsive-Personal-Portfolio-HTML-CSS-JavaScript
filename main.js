@@ -9,5 +9,6 @@ $(document).ready(function(){
 
     $('.menu-btn').click(function(){
         $('.navbar .menu').toogleClass("active");
+        $('.menu-btn i').toogleClass("active");
     });
 }); 
