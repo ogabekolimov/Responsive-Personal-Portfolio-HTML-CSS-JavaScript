@@ -253,9 +253,16 @@ section{
 
 
 
-@media (max-width: 1104px){
+@media (max-width: 1300px){
     .home .max-width{
         margin-left: 0px;
+    }
+}
+
+@media (max-width: 1104px) {
+    .about .about-content .left img{
+        height: 350px;
+        width: 350px;
     }
 }
 
@@ -315,7 +322,22 @@ section{
         font-size: 23px;
         padding: 10px 30px;
     }
+
+    .about .about-content .column{
+        width: 50%;
+    }
+
+    .max-width{
+        max-width: 800px;
+    }
+
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
 }
+
 
 
 @media (max-width: 690px){
