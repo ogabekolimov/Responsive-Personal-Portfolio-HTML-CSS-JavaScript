@@ -333,7 +333,7 @@ section{
 }
 
 .skills .skills-content .right .bars{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 
 }
 
@@ -341,6 +341,17 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.skills .skills-content .right span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    
 }
 
 .skills .title:before{
