@@ -8,6 +8,10 @@
     margin: 0;
 }
 
+.about, .services, .skills{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* navbar styling */
 
 
@@ -144,9 +148,6 @@ section{
     padding: 70px 0;
 }
 
-.about, .services{
-    font-family: 'Poppins', sans-serif;
-}
 
 .about .title{
     position: relative;
@@ -182,7 +183,8 @@ section{
 }
 
 .about .about-content,
-.services .serv-content{
+.services .serv-content,
+.skills .skills-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -317,9 +319,62 @@ section{
 
 
 
+/*  skills section styling  */
 
 
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
 
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+
+}
+
+.skills .skills-content .right .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .title:before{
+    background: #fff;
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.skills .title:after{
+    background: #111;
+    content: "my i know";
+    position: absolute;
+    bottom: -12px;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.skills .title{
+    position: relative;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    
+}
 
 @media (max-width: 1300px){
     .home .max-width{
