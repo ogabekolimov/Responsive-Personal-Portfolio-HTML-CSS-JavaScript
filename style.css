@@ -8,7 +8,7 @@
     margin: 0;
 }
 
-.about, .services, .skills{
+.about, .services, .skills, .teams{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -96,7 +96,7 @@
     color: #fff;
     font-family: 'Ubuntu', sans-serif;
 }
-
+/*  skills section styling  */
 .home .max-width{
     margin: auto 0 auto 40px;
 }
@@ -245,7 +245,7 @@ section{
 
 /*  services section styling  */
 
-.services{
+.services, .teams{
     background: #111;
     color: #fff;
 }
@@ -439,11 +439,11 @@ section{
 
 
 
+/*  teams section styling  */
 
 
 
-
-.services .title:before{
+.teams .title:before{
     background: #fff;
     content: "";
     position: absolute;
@@ -454,9 +454,9 @@ section{
     transform: translateX(-50%);
 }
 
-.services .title:after{
+.teams .title:after{
     background: #111;
-    content: "what i provide";
+    content: "who with me";
     position: absolute;
     bottom: -12px;
     font-size: 20px;
@@ -466,7 +466,7 @@ section{
     transform: translateX(-50%);
 }
 
-.services .title{
+.teams .title{
     position: relative;
     margin-bottom: 60px;
     padding-bottom: 20px;
@@ -474,6 +474,16 @@ section{
     font-weight: 500;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.teams .carousel .card{
+
+}
+
+.teams .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
 }
 
 @media (max-width: 1300px){
