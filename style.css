@@ -477,13 +477,17 @@ section{
 }
 
 .teams .carousel .card{
-
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
 }
 
 .teams .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
 }
 
 @media (max-width: 1300px){
