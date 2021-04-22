@@ -509,6 +509,10 @@ section{
     border: 5px solid crimson;
 }
 
+.teams .carousel .card:hover img{
+    border-color: #fff;
+}
+
 @media (max-width: 1300px){
     .home .max-width{
         margin-left: 0px;
