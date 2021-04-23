@@ -518,6 +518,19 @@ section{
     border-color: #fff;
 }
 
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid crimson!important;
+}
+
 @media (max-width: 1300px){
     .home .max-width{
         margin-left: 0px;
