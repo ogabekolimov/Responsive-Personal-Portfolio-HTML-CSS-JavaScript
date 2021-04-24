@@ -549,7 +549,7 @@ section{
 
 
 .contact .title:before{
-    background: #fff;
+    background: #111;
     content: "";
     position: absolute;
     width: 180px;
@@ -560,7 +560,7 @@ section{
 }
 
 .contact .title:after{
-    background: #111;
+    background: #fff;
     content: "get in touch";
     position: absolute;
     bottom: -12px;
