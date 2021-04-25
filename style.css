@@ -619,6 +619,9 @@ section{
     display: flex;
 }
 
+.contact .contact-content .info .sub-title{
+    color: #333;
+}
 
 
 @media (max-width: 1300px){
