@@ -605,6 +605,20 @@ section{
     align-items: center;
 }
 
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: crimson;
+}
+
+.contact .contact-content .info .head{
+    font-weight: 500;
+    display: flex;
+}
+
 
 
 @media (max-width: 1300px){
