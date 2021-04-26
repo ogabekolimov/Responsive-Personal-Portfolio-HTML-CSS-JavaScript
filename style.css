@@ -691,7 +691,16 @@ section{
     background: crimson;
     color: #fff;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact .right form .button button:hover{
+    color: crimson;
+    background: none;
+    box-shadow: 0px 0px 3px 2px #333;
 }
 
 
@@ -803,6 +812,13 @@ section{
 
     .skills .skills-content .column{
         width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .contact .contact-content{
+        width: 100%;
+        flex-direction: column;
+        
         margin-bottom: 35px;
     }
 }
