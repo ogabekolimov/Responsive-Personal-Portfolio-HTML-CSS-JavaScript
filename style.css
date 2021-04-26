@@ -544,6 +544,12 @@ section{
     background: crimson!important;
 }
 
+
+
+
+
+
+
 /* Contact section styling */
 
 
@@ -581,18 +587,26 @@ section{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.contact .contact-content{
+    display: flex;
+    
+}
+
 .contact .contact-content .column{
     width: calc(50% - 30px);
+    margin-right: 80px;
+    
 }
 
 .contact .contact-content .text{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
 .contact .contact-content .left p{
     text-align: justify;
+    font-size: 20px;
 }
 
 .contact .contact-content .left .icons{
@@ -603,6 +617,7 @@ section{
     display: flex;
     height: 65px;
     align-items: center;
+    font-size: 20px;
 }
 
 .contact .contact-content .row .info{
@@ -610,7 +625,7 @@ section{
 }
 
 .contact .contact-content .row i{
-    font-size: 25px;
+    font-size: 5px;
     color: crimson;
 }
 
@@ -622,6 +637,50 @@ section{
 .contact .contact-content .info .sub-title{
     color: #333;
 }
+
+.contact .right form .fields{
+    display: flex;
+}
+
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .right form .name{
+    margin-right: 10px;
+}
+
+.contact .right form .email{
+    margin-left: 10px;
+}
+
+.contact .right form .field input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0px 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 1300px){
