@@ -93,7 +93,7 @@ html{
     width: 42px;
     background: crimson;
     right: 30px;
-    bottom: 30px;
+    bottom: 10px;
     text-align: center;
     line-height: 45px;
     z-index: 9999;
@@ -101,6 +101,15 @@ html{
     font-size: 30px;
     border-radius: 6px;
     cursor: pointer;
+    /* opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease; */
+}
+
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: all;
 }
 
 /*Home section styling*/
