@@ -25,6 +25,22 @@ $(document).ready(function(){
         $('.menu-btn i').toogleClass("active");
     });
 
+    // typed animation script
+
+    var typed = new Typed(".typing", {
+        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
+
+    var typed = new Typed(".typing2", {
+        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
