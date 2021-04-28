@@ -818,7 +818,6 @@ section{
     .contact .contact-content{
         width: 100%;
         flex-direction: column;
-        
         margin-bottom: 35px;
     }
 }
