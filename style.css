@@ -47,7 +47,7 @@ html{
 
 .navbar .logo a{
     color: #fff;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -67,7 +67,7 @@ html{
 .navbar .menu li a{
     display: block;
     color: #fff;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     margin-left: 25px;
     transition: color .3 ease;
